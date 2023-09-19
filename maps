@@ -1,0 +1,12 @@
+# ========== FAUCET.BYSELTR FOLDER STRUCTURES ==========
+- faucet.byseltr.domain
+	- node_modules
+	- server.js
+	- CNAME
+	- .gitignore
+	- LICENSE
+	- vercel.json
+	- README.md
+	- package.json
+	- package-lock.json
+	- maps
