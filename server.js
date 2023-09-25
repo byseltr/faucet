@@ -1,9 +1,9 @@
 import express from 'express'
-
 const app = express()
 
-app.get('/', (req, res) => {
-	res.send("faucet byseltr.domain!")
+app.get('*', (req, res) => {
+	const text = '[status] server under maintenance.\ndeveloped by andrew setyawan <ands>'
+	res.send(text)
 })
 
 // listen server
